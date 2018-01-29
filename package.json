@@ -1,0 +1,22 @@
+{
+  "name": "inerion",
+  "version": "0.0.0",
+  "description": "Personal miscellaneous website",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syl-gauthier/inerion.git"
+  },
+  "author": "syl-gauthier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Syl-gauthier/inerion/issues"
+  },
+  "homepage": "https://github.com/Syl-gauthier/inerion#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
