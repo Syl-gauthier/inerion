@@ -10,8 +10,10 @@ var app = express();
 
 app.use(morgan("tiny"));
 
+app.set("view engine", "pug");
+
 app.get("/", function(req, res) {
-  res.send("hello, world!!");
+  res.render("index");
 });
 
 app.listen(port, function() {
