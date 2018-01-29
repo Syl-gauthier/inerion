@@ -4,6 +4,7 @@
   "description": "Personal miscellaneous website",
   "main": "app.js",
   "scripts": {
+    "build": "gulp build",
     "test": "mocha"
   },
   "repository": {
