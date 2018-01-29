@@ -1,9 +1,14 @@
 /* eslint no-console: "off" */
 
 const express = require("express");
+const morgan = require("morgan");
+
+
 var port = process.env.PORT | 3000;
 
 var app = express();
+
+app.use(morgan("tiny"));
 
 app.get("/", function(req, res) {
   res.send("hello, world!!");
