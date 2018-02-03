@@ -5,8 +5,7 @@ require("dotenv").config();
 const express = require("express");
 const morgan = require("morgan");
 
-
-var port = process.env.PORT | 3000;
+var port = process.env.PORT||3000;
 
 var app = express();
 
@@ -21,5 +20,5 @@ app.get("/", function(req, res) {
 });
 
 app.listen(port, function() {
-  console.log("\x1b[32m", "app listening on port", port, "\x1b[0m");
+  console.log("app listening on port", port);
 });
